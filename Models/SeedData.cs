@@ -51,6 +51,41 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Transformers",
+                    ReleaseDate = DateTime.Parse("2007-7-3"),
+                    Genre = "Science Fiction",
+                    Rating = "PG-13",
+                    Price = 9.99M
+                },
+
+                new Movie
+                {
+                    Title = "Pirates of the Caribbean: The Curse of the Black Pearl",
+                    ReleaseDate = DateTime.Parse("2003-7-9"),
+                    Genre = "Adventure",
+                    Rating = "PG-13",
+                    Price = 8.99M
+                },
+
+                new Movie
+                {
+                    Title = "The Count of Monte Cristo",
+                    ReleaseDate = DateTime.Parse("2002-1-25"),
+                    Genre = "Drama",
+                    Rating = "PG-13",
+                    Price = 7.99M
+                },
+
+                new Movie
+                {
+                    Title = "Pacific Rim",
+                    ReleaseDate = DateTime.Parse("2013-7-12"),
+                    Genre = "Science Fiction",
+                    Rating = "PG-13",
+                    Price = 9.99M
                 }
             );
             context.SaveChanges();
